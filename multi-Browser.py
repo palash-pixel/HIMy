@@ -17,7 +17,7 @@ print(driver.title)
 driver.get("https://www.yahoo.com/")
 time.sleep(5)
 
-driver.find_element_by_xpath("/html/body/div[2]/div/main/div[6]/div/ul/li[2]/div/div[1]/div[1]/div/div[2]/a/u").click()
+# driver.find_element_by_xpath("/html/body/div[2]/div/main/div[6]/div/ul/li[2]/div/div[1]/div[1]/div/div[2]/a/u").click()
 print(driver.title)
 
 print(driver.current_url)
