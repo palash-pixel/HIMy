@@ -6,7 +6,6 @@ driver= webdriver.Chrome(executable_path="C:\Driver\chromedriver_win32\chromedri
 
 driver.get("https://www.google.com/")
 
-knknklmn
 time.sleep(5)
 driver.back()
 time.sleep(5)
