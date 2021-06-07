@@ -24,7 +24,7 @@ print(name_peace[-1])
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome("driver/chromedriver.exe")
+driver = webdriver.Chrome("C:\Driver\chromedriver_win32\chromedriver.exe")
 driver.get("https://www.google.com/")
 
 print(driver.title)
@@ -38,7 +38,7 @@ value = driver.find_element_by_xpath("//*[@id='result-stats']").text
 
 print(value)
 splited_value = value.split(" ")
-print(int(splited_value[1]/2))
+print(splited_value[1]/2)
 
 
 
