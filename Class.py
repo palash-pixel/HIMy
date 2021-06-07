@@ -39,7 +39,7 @@ value = driver.find_element_by_xpath("//*[@id='result-stats']").text
 print(value)
 splited_value = value.split(" ")
 print(splited_value[1])
-
+driver.quite
 
 
 
